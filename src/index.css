@@ -1,0 +1,28 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a:hover {
+  color: #319795;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh !important;
+  background-image: linear-gradient(to bottom left ,#d8d7fa, #97b8ba, #d8d7fa ) !important;
+}
+
+.builtBy {
+  color: white;
+}
