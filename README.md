@@ -6,6 +6,7 @@ Tired of manually creating and sending Polygon ID claim links one by one? Here's
 
 ![generator-gif](https://user-images.githubusercontent.com/91382964/204944692-b21a4727-f055-46fb-af32-0106d07c4041.gif)
 
+**Caveat**: Because your users are essentially issuing your claims to themselves, they are not truely VERIFIED credentials. For example, I don't actually have 4 pets, but I was able to claim that I have 4 because no one verified this. Use this repo to spin up Issuer playgrounds for your Polygon ID apps, but understand that a real-world verifier probably would not trust a self-service issuer that works without some type of checking logic before allowing a user to claim.
 
 ## Getting started
 
